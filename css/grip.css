@@ -1,0 +1,108 @@
+.inicio_pro {
+    width: 98.5%;
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(3,20% 60% 20%  );
+    grid-template-rows: 100%;
+    
+    
+    
+    }
+
+    .lista_pro {
+        width: 100%;
+        max-width: 1300px;
+      
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2px;
+    }
+
+    .tec_pro {
+        width:90%;
+        max-width: 1200px;     
+        margin: auto;        
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+       gap: 30px;
+       padding: 4% 0%;
+       grid-template-areas: "lista_tecno1  lista_tecno1";
+    }
+
+    .tec_pro img  {
+        width: 40%;
+        display:table;
+        margin: auto;
+        object-fit: cover;
+    }
+
+
+
+
+    .tec_pro h2 {
+
+        text-align: center;
+        color:azure;
+        font-family: emoji;
+     }
+
+     
+
+
+    .empresas_pro {
+        width: 100%;
+        max-width: 676px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+     
+
+    }
+
+    .presenatcion_pro p{
+        text-align: center;
+    }
+
+    @media screen and  (max-width: 760px){
+
+        .lista_pro {
+            display: grid;
+            grid-template-columns: 100%;
+            margin: 0px -20px;
+        }
+
+        .lupa ul  a  {
+            font-size: 35px;
+
+
+            }
+        .tec_pro {
+            width:100%;
+            max-width: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+
+        .tec_pro img  {
+            margin-top: 40px;
+        }
+
+        .tec_pro h2 {
+           font-size: 14px;
+        }
+
+        .empresas_pro {
+            width: 100%;
+            max-width: 760px;
+            object-fit: cover;         
+            display: grid;
+            grid-template-columns: repeat(1,1fr);    
+    
+        }
+
+        .fin small {
+           font-size: 10px;
+        }
+    }

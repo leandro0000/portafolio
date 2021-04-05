@@ -1,0 +1,890 @@
+body {
+   padding:0px;
+   margin:0px;
+   
+   
+}
+
+
+.containe {
+    width: 100%;
+    box-sizing: border-box;
+    background:#f0f6f7;
+}
+
+
+.inicio_pro {
+    background: black;
+    opacity: 0.8;
+    height: 300px;
+    padding: 10px 10px;
+    
+    
+ }
+ 
+ 
+ .img_pro {
+     margin: auto;
+     
+ }
+ 
+ .pre2_pro {
+     margin:auto;
+     float: right;
+     
+ }
+ 
+ .pre_pro {
+     margin: auto;
+     border-bottom: 1px solid red;
+    
+ }
+ 
+ .pre_pro h2 {
+     font-size: 25px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #fff;
+     text-justify: center;
+     
+ }
+ 
+ .nombre {
+     opacity: 0;
+    
+ }
+ 
+ 
+ .text_pro {
+     transform: translate(0px, 108px);
+     opacity: 0;
+     font-family: emoji;
+     font-size: 20px;
+ }
+ 
+ .menu_pro1 {
+    background:#36bed9;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); 
+   display:grid;
+   grid-template-columns: 10% 29% 0% 60%;
+    height: 70px;
+    transition: 1.5s;
+    }
+    
+    
+    .menu_pro2 {
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        max-width: 1333px;
+        top: 0px;
+        
+        
+        
+    }
+    
+    .menu_pro  {
+        float: right;
+    }
+
+    .logo {
+        float: right; 
+    }
+    .menu_pro li {
+        display: inline-block;
+        padding: 7px 10px;
+        transform: translate(-40px, 0px);
+        
+    
+    }
+    
+    .menu_pro a {
+        text-decoration: none;
+        font-size: 20px;
+        color: floralwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    }
+    
+    .menu_pro li:hover {
+        background:black;
+          
+    }
+    
+    .img_rect {
+        padding:12px;
+        animation: men infinite 2s linear;
+        width:40px;
+    }
+
+    @keyframes men {
+        from {
+           
+            transform: rotate(0deg); 
+        }
+        to{
+            transform: rotate(360deg); 
+        }
+    }
+
+    .text_porta h2 {
+        text-align: center;
+        margin-top: 100px;
+        color: #4b4c52;
+        font-family: emoji;
+        font-size: 34px;
+    
+    }
+    
+    .por_img {
+       
+        cursor: pointer;
+        transition: all 500ms ease;
+       
+    }
+
+    .lupa {
+        overflow: hidden;
+    }
+
+    .maxter_pro {
+        color:#fff;
+        font-size: 20px;
+        padding:100px;
+       z-index: 999;
+       position: absolute;
+       display:none;
+        
+    }
+
+    .lupa ul li  {
+      list-style: none;
+     
+    }
+
+   
+
+    .lupa ul  a  {
+        font-size: 32px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    transform: translate(95px, -223px);
+    opacity: 0;
+    transition: 0.5s;
+        
+      }
+
+      .lupa ul:hover a {
+        transform: translate(95px, -130px);
+        opacity: 1;
+      }
+
+
+
+    .lupa img {
+        width: 100%;
+        height: 100%;
+        transition:all 500ms ease;
+        object-fit: cover;
+    
+    }
+
+    .por_img:hover {
+        opacity: 0.5;
+        transform: scale(1.1);
+       
+    }
+
+    .men1 {
+        position: fixed;
+        z-index: 999;
+        top:0px;
+        right: 0px;   
+        width:100%;
+        
+    }
+
+    .logo {
+        opacity: 0;
+        transition: opacity 1s;
+    
+    }
+     
+    .logo li{
+        display: inline-block;
+        padding: 0px 0px;
+        list-style: none;
+        font-size: 20px;
+        transform: translate(-193px, 2px);
+    
+
+    }
+
+    .logo a {
+        color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    letter-spacing: -2px;
+        
+    }
+
+    .junior span{
+        font-size: 15px;       
+        color:black; 
+    }
+
+  
+   .modal {     
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+z-index: 999;
+top:0px;
+bottom: 0px;
+right: 0px;
+left: 0px;
+overflow: auto;
+visibility: hidden;
+
+      
+      
+   }
+
+   .moda{
+       visibility:visible;
+       
+   }
+
+   .modal_pro {
+       background:#fff;
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.5); 
+    width: 60%;
+    margin: 10px;
+    border-radius: 5px;
+  
+    
+    
+   
+   }
+
+   .modal_pro h2 {
+       
+    display:table;
+    margin: auto;
+    font-size: 30px;
+    color: darkgray;
+    font-family: Georgia;
+    border-bottom: 1px solid red;
+   }
+
+
+   .porta1 {
+       margin-top: 40px;
+   }
+
+   .modal_pro h2 span {
+       font-size: 12px;
+   }
+
+   .modal_pro p {
+       text-align: center;
+   }
+
+   .img_cerrar {
+      width:20%;
+      transition: 0.4s;
+      cursor: pointer;
+   }
+
+   .img_cerrar:hover{
+     transform: rotate(360deg);
+   }
+
+   .sin_pro {
+       float: right;
+       transform: translate(92px, 10px);
+   }
+
+   .img_proyectos {
+       display:table;
+       margin: auto;
+
+
+   }
+   .modal_pro a {
+    display: table;
+    margin: auto;
+    color: red;
+    padding: 14px 2px;
+    font-size: 17px;
+    font-family: emoji;
+    text-decoration: none;
+    border-radius: 10px; 
+   }
+
+   
+
+.rumar_pro img {
+    width: 60%;
+    margin-top: 30px;
+    
+
+    
+}
+
+.tecnologias {
+    background: blueviolet;
+    height: 635px;
+    margin-top: 7%;
+}
+
+.tecnologias h1 {
+    text-align: center;
+    color:#fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translate(0%,140%);
+}
+
+.lista_tecno img {
+
+    width: 100%;
+    object-fit: cover;
+}
+
+.lista_tecno  {
+
+    
+display:table;
+margin:auto;
+}
+
+.lista_tecno h2 {
+
+   text-align: center;
+   color:azure;
+   font-family: emoji;
+}
+
+
+
+.experiencia h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: #4b4c52;
+    padding: 20px;
+}
+
+.empresa{
+    overflow: hidden;
+}
+
+.empresa img {
+    width: 51%;
+    transition: all 500ms ease;
+    cursor: pointer;
+    height: 165px;
+    object-fit: cover;
+    display: table;
+    margin: auto;
+}
+
+.empresa img:hover {
+    transform:scale(1.1);
+    border-radius: 6px;
+}
+
+.empresa p{
+font-size:25px;
+font-family:sans-serif;
+text-align: center;
+color: orangered;
+
+}
+
+.experiencia {
+    margin-top: 70px;
+    background: #fff;
+}
+
+.modal2_pro {
+    position: fixed;
+    z-index: 1000;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: auto;
+    visibility: hidden;
+} 
+
+
+.informacion_pro {
+    width: 70%;
+    background: #f5f9fa;
+   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+   overflow-y: auto;
+    height: 500px;
+    border-radius: 5px;
+
+  
+}
+
+.informacion_pro img {
+  z-index: 9999;
+     padding:15px;
+    width: 3%;
+   
+}
+
+.presenatcion_pro {
+    background: black;
+    opacity: 0.8;
+  margin:-2% 0%;
+    
+
+}
+
+.presenatcion_pro h2 {
+    color:#fff;
+    text-align: center;
+    font-size:30px;
+
+}
+
+.presenatcion_pro h2 span {
+    font-size:15px;
+}
+
+.presenatcion_pro p{
+    text-align: center;
+    color: #fff;
+}
+
+.informacion_pro h4 {
+    color:#fff;
+    font-size: 15px;
+    font-family:sans-serif;
+    padding: 10px 12px;
+}
+
+.calificaciones  {
+ background:blue;
+}
+
+
+.moda5{
+    visibility:visible;
+}
+
+
+.cerrar {
+    width:20%;
+    transition: 0.4s;
+    cursor: pointer;
+ }
+
+ .cerrar:hover{
+   transform: rotate(360deg);
+ }  
+
+ .datos{
+     background:black;    
+     max-height: 1200px;  
+     height:617px;
+     opacity: 0.8;
+    
+     
+ } 
+
+ .contacto input {
+     display:block;     
+     width: 70%;
+     font-size: 25px;
+     font-family: 'Times New Roman', Times, serif;
+     color:black;
+     height:50px;
+     border-radius: 7px;
+     background:aliceblue;
+     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+     display: table;
+     margin: auto;
+    
+  
+
+
+ }
+
+ .contacto button{
+ 
+     width: 70%; 
+    ;
+     height:50px;
+     font-size: 25px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background:red;
+     cursor: pointer;
+     opacity: 0.8;
+     transition: 0.5s;
+     border-radius: 5px;
+     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+     border:none;
+     display:table;
+     margin: auto;
+    
+ }
+
+ .contacto button:hover {
+    opacity: 1.5;
+
+ }
+
+ .datos1 {
+     padding: 2%;
+     margin-top: 50px;
+ }
+
+ .datos1 h2 {
+    color:#f0f6f7;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    height: .1rem;
+    background:#fff;
+    border:0;
+
+}
+
+.redes {
+    display:table;
+    margin:auto;
+    
+
+   
+}
+
+.redes img {
+    background: #f0f6f7;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+   
+
+
+}
+
+.redes img:hover {
+    background: blue;
+  
+
+
+}
+
+.footer {
+    background: red;
+    width: 100%;
+    
+    
+   
+}
+
+.fin small {
+    display:table;
+    margin: auto;
+    padding: 46px 0px;
+    color:#f0f6f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.fin small span {
+    color:black;
+}
+
+.contacto textarea {
+    display:block;     
+    width: 70%;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    height:110px;
+    border-radius: 7px;
+    background:aliceblue;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+    display: table;
+    margin: auto;
+    overflow: auto;
+   
+ 
+
+
+}
+
+
+
+@media screen and  (max-width: 760px){
+ 
+    .pre_pro h2 {
+        font-size: 10px;
+        
+    }
+
+    .menu_pro a {
+       
+        font-size: 9px;
+        
+    }
+
+    .logo a {
+        display: none;
+    }
+
+    .informacion_pro {
+      
+        background: cornflowerblue;
+       
+    }
+
+    .presenatcion_pro {
+        background: cornflowerblue;
+      
+    }
+
+    .presenatcion_pro h2 {
+        color: #ffF;
+        
+    }
+
+    .informacion_pro img {
+    
+      
+        width: 9%;
+        float: right;
+        margin: -34px 0px
+    }
+
+    .tecnologias h1 {
+         color: black;
+        
+    }
+
+    .text_porta h2 {
+      
+        color: black;
+        
+    }
+
+    .empresa img {
+        width: 40%;
+        
+      
+    }
+
+
+}
+
+@media screen and (max-width:375px){
+    .pre_pro h2 {
+        font-size: 9px;
+        line-height: 18px;
+    }
+
+    
+
+    .lupa ul a {
+        font-size: 24px;
+       
+    }
+
+    .lupa ul a:hover {
+       
+        transform: translate(66px, -184px);
+    }
+    
+
+    .img_pro {
+       
+        width: 65%;
+    }
+
+    .footer {  
+        
+        margin-top: 29px;
+    
+    }
+
+    .img_php {
+        width: 59%;
+
+    }
+
+   .junior {
+       display:none;
+   }
+
+   .menu_pro li {
+   
+    padding: 5px 3px;
+    transform: translate(0px, 0px);
+  
+}
+
+.img_rect {
+    padding: 21px; 
+    width: 27px;
+}
+
+.contacto input {
+    
+    font-size: 15px;
+  
+    color: black;
+    height: 28px;
+    
+   
+  
+   
+}
+
+.contacto textarea {
+   
+    height: 57px;
+   
+}
+
+.contacto button {
+    height:34px;
+}
+
+.redes img {
+   
+    width: 30px;
+}
+
+.tecnologias {
+   
+    height: 535px;
+   
+}
+
+.footer {
+  
+    padding-bottom: 270px;
+  
+ 
+    
+    margin-top: 29px;
+
+}
+
+.datos1 h2 {
+   
+    font-size: 25px;
+    
+}
+.img_cerrar {
+    width: 16%;
+    margin-right: -27px;
+    
+}
+
+.modal_pro a {
+  
+    color: blue;
+  
+    font-size: 17px;
+    font-family:sans-serif;
+    padding: 0px 2px;
+  
+}
+
+.modal_pro {
+  
+    padding-bottom: 33em;
+}
+
+.modal_pro h2 {
+   
+    font-size: 19px;
+    color: darkred;
+   
+    
+}
+
+
+
+.presenatcion_pro h2 {
+    color: brown;
+    font-size: 17px;
+}
+
+.presenatcion_pro h2 span {
+    font-size: 11px;
+}
+
+.presenatcion_pro p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.experien_text li{
+ color:#36bed9;
+}
+.experien_text li {
+    color: black;
+    font-size: 10px;
+}
+
+.presenatcion_pro p {
+    font-size: 10px;
+
+}
+
+.informacion_pro {
+   
+    height: 321px;
+    
+}
+
+.moda5 {
+    
+    padding-bottom: 15em;
+}
+
+.modal_pro p {
+  
+    font-size: 12px;
+}
+.modal_pro {
+    background: ivory;
+   
+    height: 0px;
+}
+
+
+    .fin small {
+        font-size: 10px;
+        transform: translate(5px, 3px);
+    }
+
+
+}
+
+ 
+    
+    
+    
+ 
+ 
+ 
+ 
